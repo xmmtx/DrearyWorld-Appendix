@@ -1,0 +1,95 @@
+{
+    "site": {
+        "title": "萧世界",
+        "description": "大型多人在线生存服务器，提供Carpet生存、建筑创造、小游戏等多种玩法。",
+        "server_ip": "mc.xm233.cn",
+        "logo_text": "萧世界",
+        "logo_image": "",
+        "server_mode": "international",
+        "netease_tier": "shangyao"
+    },
+    "hero": {
+        "badge": "开服日期：2025年5月4日",
+        "title_line1": "欢迎来到",
+        "title_highlight": "萧世界",
+        "subtitle": "由专业团队倾力打造的大型多人在线游戏，为您带来高质量的游戏体验",
+        "features": ["支持生电"],
+        "bg_image": "./png/c6d2dd6a664242e2e5faa640d28c340b.jpg"
+    },
+    "specs": {
+        "title": "服务器配置",
+        "subtitle": "为了给您提供最流畅的游戏体验，我们不惜成本选用了顶级的企业级硬件设施",
+        "bg_image": "./png/89ce487b74da31797c19a3dc4ffc0d79.jpg",
+        "items": [
+            {"title": "处理器", "desc": "Intel Xeon CPU E5-2680 v4 2.40GHz，24核性能极致释放", "value": "E5-2680 v4", "icon": "./admin/uploads/png/961669c17268467e.jpg"},
+            {"title": "运行内存", "desc": "32GB DDR4 2400MHz ECC 纠错内存，告别卡顿与崩溃", "value": "32GB DDR4", "icon": "./png/RAM.png"},
+            {"title": "网络节点", "desc": "CN2 优化线路，节点覆盖，低延迟畅玩", "value": "全球覆盖", "icon": "./png/network.png"},
+            {"title": "安全存储", "desc": "企业级 R730 硬盘柜，6TB 超大机械硬盘", "value": "冷热双备", "icon": "./png/SSD.png"}
+        ]
+    },
+    "help": {
+        "title": "如何加入",
+        "subtitle": "只需简单几步，即可开始你的冒险之旅",
+        "bg_image": "./png/5e1e1be033cbd911e62327519886379f.jpg",
+        "steps": [
+            {"title": "下载游戏", "desc": "前往我的世界官网或各大应用商店下载最新版本的Minecraft Java版。"},
+            {"title": "添加服务器", "desc": "打开游戏，选择\"多人游戏\" → \"添加服务器\"，输入服务器地址。"},
+            {"title": "开始冒险", "desc": "连接服务器后，跟随新手指引完成初始设置，即可开始你的冒险！"}
+        ]
+    },
+    "features": {
+        "title": "游戏特色",
+        "subtitle": "探索我们精心打造的独特玩法与系统",
+        "bg_image": "./png/7649e2dbc7044ee71743022dd2d51701.jpg",
+        "items": [
+            {"title": "纯净生存", "desc": "原汁原味的生存体验，配合精心调整的平衡性，让每一次探索都充满乐趣。", "icon": "./egg/002.png"},
+            {"title": "RPG系统", "desc": "独特的职业与技能系统，挑战强大的副本BOSS，获取传说级装备。", "icon": "./egg/003.png"},
+            {"title": "建筑创造", "desc": "超大领地保护，丰富的装饰性方块，让你的建筑才华得到完美展示。", "icon": "./egg/001.png"}
+        ]
+    },
+    "gallery": {
+        "title": "游戏截图",
+        "subtitle": "每一帧都是壁纸，记录我们在服务器的点点滴滴",
+        "bg_image": "./png/f5ea0ca06bf5ac36704b7277536ab53d.jpg",
+        "items": [
+            {"src": "./png/f5ea0ca06bf5ac36704b7277536ab53d.jpg", "caption": "宏伟的主城大厅"},
+            {"src": "./png/5e1e1be033cbd911e62327519886379f.jpg", "caption": "精美的玩家建筑"},
+            {"src": "./png/9cca3afcca8c0a79eac6a39aad5d65ec.jpg", "caption": "广阔的生存世界"},
+            {"src": "./egg/img1_bcd004c0.jpg", "caption": "热闹的活动现场"},
+            {"src": "./egg/img2_ab032cdc.jpg", "caption": "激情的PVP对战"}
+        ]
+    },
+    "team": {
+        "title": "管理团队",
+        "subtitle": "专业的运营团队，致力于为您提供最好的游戏体验",
+        "bg_image": "./png/achXdg.jpg",
+        "members": [
+            {"name": "小麻马同学", "role": "服主", "desc": "负责服务器整体规划与运营，确保服务器长期稳定运行。", "avatar": "./admin/uploads/uploads/a28ea4ce72108799.jpg", "contact_link": ""},
+            {"name": "戴浩原", "role": "物理服主", "desc": "负责维护服务器物理机状态，确保服务器长期稳定运行。", "avatar": "./admin/uploads/uploads/383fa47ea00c7046.jpg", "contact_link": ""}
+        ]
+    },
+    "contact": {
+        "bg_image": "./png/5e1e1be033cbd911e62327519886379f.jpg"
+    },
+    "community": {
+        "title": "加入社区",
+        "subtitle": "加入我们的玩家交流群，获取最新资讯与福利",
+        "bg_image": "png/wj_Narcissa_3.png",
+        "qq_text": "官方QQ群",
+        "qq_desc": "与其他玩家实时交流，获取最新公告",
+        "qq_qr": "./admin/uploads/uploads/1620ebef3903775e.jpg",
+        "qq_link": "https://qm.qq.com/q/z1O95A8TmK",
+        "wechat_text": "服主微信",
+        "wechat_desc": "加微信后进群，不错过任何活动通知",
+        "wechat_qr": "./admin/uploads/uploads/cbc6a08a989b29ce.png",
+        "wechat_link": "https://u.wechat.com/EIPW6RmyhCipSuI72it77J4?s=4"
+    },
+    "footer": {
+        "desc": "由专业团队倾力打造的大型多人在线游戏，致力于为玩家提供最优质的游戏体验与最温馨的社区氛围。",
+        "copyright": "© 2026 萧世界. All rights reserved.",
+        "friend_links": [
+            {"name": "我的世界官网", "url": "https://mc.163.com/"},
+            {"name": "我的世界国际服", "url": "https://www.minecraft.net/"}
+        ]
+    }
+}
