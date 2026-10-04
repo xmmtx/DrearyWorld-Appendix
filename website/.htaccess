@@ -14,12 +14,6 @@ Options -Indexes
         Header always set Cache-Control "no-store, no-cache, must-revalidate, private"
         Header always set Pragma "no-cache"
     </FilesMatch>
-
-    # 这些 PHP 端点只拼接版本化静态资源，允许按 ?v=mtime 长缓存。
-    <FilesMatch "^(css|js)\.php$">
-        Header always set Cache-Control "public, max-age=31536000, immutable"
-        Header always unset Pragma
-    </FilesMatch>
 </IfModule>
 
 # ========== Gzip 压缩 ==========

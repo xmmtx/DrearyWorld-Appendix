@@ -48,6 +48,7 @@ Desktop.ini
 .idea/
 .vscode/
 *.code-workspace
+reference/
 
 # ---------- 日志 / 数据库导出 / 备份 ----------
 *.log
