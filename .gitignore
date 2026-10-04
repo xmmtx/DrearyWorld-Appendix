@@ -1,0 +1,65 @@
+# ============================================================
+# DrearyWorld-Appendix
+# 目标：只跟踪「源码 / 资源 / 安全规则 / 安装器」，
+#       忽略「服务器凭据 / 运行期数据 / 用户上传 / 本机垃圾」。
+# ============================================================
+
+# ---------- 敏感配置（每台服务器不同，含明文凭据，切勿提交） ----------
+# 由安装器生成，含数据库地址/账号/密码
+website/admin/data/db_config.php
+# 服务器专属限制（open_basedir 等）
+website/.user.ini
+
+# ---------- 后台运行期数据（缓存 / 锁 / 迁移标记 / 限流记录） ----------
+website/admin/data/.cms_content.cache
+website/admin/data/.cms_settings.cache
+website/admin/data/.ad_integrity_cache
+website/admin/data/.*.cache
+website/admin/data/.schema_*
+website/admin/data/.shop_*
+website/admin/data/.srv_status_*
+website/admin/data/*.lock
+website/admin/data/login_attempts.json
+
+# ---------- 备份文件（保留目录与 .htaccess，忽略具体备份内容） ----------
+website/admin/data/backups/*
+!website/admin/data/backups/.htaccess
+!website/admin/data/backups/index.html
+
+# ---------- 用户上传内容（保留目录结构与 .htaccess 安全规则） ----------
+website/admin/uploads/**
+!website/admin/uploads/**/
+!website/admin/uploads/**/.htaccess
+website/user/uploads/**
+!website/user/uploads/**/
+!website/user/uploads/**/.htaccess
+
+# ---------- 可选：若把站点内容视为运行期数据而非种子数据，取消下行注释 ----------
+# website/admin/data/content.json
+
+# ---------- 本机 / 编辑器 / 临时文件 ----------
+.DS_Store
+._*
+Thumbs.db
+Desktop.ini
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
+*.code-workspace
+
+# ---------- 日志 / 数据库导出 / 备份 ----------
+*.log
+*.tmp
+*.bak
+*.old
+*.orig
+*.sql
+*.sql.gz
+*.zip
+*.tar.gz
+
+# ---------- 依赖目录（本项目为原生 PHP，预留以免误提交） ----------
+node_modules/
+vendor/
